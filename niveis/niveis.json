@@ -1,0 +1,213 @@
+{
+  "tipo": "jogo",
+  "repo": "ai-game-template",
+  "versao_template": "4.0",
+  "niveis": {
+    "SIMPLES": {
+      "obrigatorios": [
+        "SOURCE/contexto-master.md",
+        "SOURCE/00-conceito/game-concept.md",
+        "SOURCE/01-design/core-loop.md",
+        "SOURCE/01-design/mecanicas.md",
+        "SOURCE/03-tecnico/engine-e-stack.md",
+        "SOURCE/03-tecnico/arquitetura-de-codigo.md",
+        "SOURCE/03-tecnico/mapa-cenas-nodos.md",
+        "SOURCE/03-tecnico/contrato-de-eventos.md",
+        "SOURCE/04-dados-de-design/entidades.json",
+        "SOURCE/05-agentes/guardrails.md",
+        "SOURCE/05-agentes/skills/prototipar-greybox.md",
+        "SOURCE/05-agentes/skills/juice-e-feel.md",
+        "SOURCE/05-agentes/skills/corrigir-bug.md",
+        "SOURCE/05-agentes/skills/revisar-entrega.md",
+        "SOURCE/06-qualidade/definicao-de-pronto.md"
+      ],
+      "opcionais": []
+    },
+    "MEDIO": {
+      "obrigatorios": [
+        "SOURCE/contexto-master.md",
+        "SOURCE/00-conceito/game-concept.md",
+        "SOURCE/01-design/core-loop.md",
+        "SOURCE/01-design/mecanicas.md",
+        "SOURCE/03-tecnico/engine-e-stack.md",
+        "SOURCE/03-tecnico/arquitetura-de-codigo.md",
+        "SOURCE/03-tecnico/mapa-cenas-nodos.md",
+        "SOURCE/03-tecnico/contrato-de-eventos.md",
+        "SOURCE/04-dados-de-design/entidades.json",
+        "SOURCE/05-agentes/guardrails.md",
+        "SOURCE/05-agentes/skills/prototipar-greybox.md",
+        "SOURCE/05-agentes/skills/juice-e-feel.md",
+        "SOURCE/05-agentes/skills/corrigir-bug.md",
+        "SOURCE/05-agentes/skills/revisar-entrega.md",
+        "SOURCE/06-qualidade/definicao-de-pronto.md",
+        "SOURCE/00-conceito/pilares-e-experiencia.md",
+        "SOURCE/01-design/progressao-e-economia.md",
+        "SOURCE/01-design/niveis-e-mundo.md",
+        "SOURCE/01-design/controles-e-ux.md",
+        "SOURCE/02-direcao-arte-audio/art-bible.md",
+        "SOURCE/02-direcao-arte-audio/convencoes-de-assets.md",
+        "SOURCE/03-tecnico/performance-e-plataformas.md",
+        "SOURCE/03-tecnico/pipeline-de-build.md",
+        "SOURCE/04-dados-de-design/README.md",
+        "SOURCE/04-dados-de-design/habilidades.csv",
+        "SOURCE/04-dados-de-design/inimigos.csv",
+        "SOURCE/05-agentes/skills/projetar-mecanica.md",
+        "SOURCE/05-agentes/skills/implementar-feature.md",
+        "SOURCE/06-qualidade/playtest-e-balanceamento.md",
+        "SOURCE/06-qualidade/checklist-revisao.md",
+        "SOURCE/07-producao/escopo-mvp.md",
+        "SOURCE/09-decisoes/ADR-000-modelo.md"
+      ],
+      "opcionais": [
+        "SOURCE/00-conceito/publico-e-mercado.md",
+        "SOURCE/01-design/narrativa-e-personagens.md",
+        "SOURCE/02-direcao-arte-audio/direcao-de-audio.md",
+        "SOURCE/02-direcao-arte-audio/ui-style-guide.md",
+        "SOURCE/03-tecnico/multiplayer-e-rede.md",
+        "SOURCE/05-agentes/papeis-e-fluxo.md",
+        "SOURCE/05-agentes/skills/criar-conteudo-narrativo.md",
+        "SOURCE/05-agentes/skills/gerar-asset-brief.md"
+      ]
+    },
+    "COMPLEXO": {
+      "obrigatorios": [
+        "SOURCE/contexto-master.md",
+        "SOURCE/00-conceito/game-concept.md",
+        "SOURCE/01-design/core-loop.md",
+        "SOURCE/01-design/mecanicas.md",
+        "SOURCE/03-tecnico/engine-e-stack.md",
+        "SOURCE/03-tecnico/arquitetura-de-codigo.md",
+        "SOURCE/03-tecnico/mapa-cenas-nodos.md",
+        "SOURCE/03-tecnico/contrato-de-eventos.md",
+        "SOURCE/04-dados-de-design/entidades.json",
+        "SOURCE/05-agentes/guardrails.md",
+        "SOURCE/05-agentes/skills/prototipar-greybox.md",
+        "SOURCE/05-agentes/skills/juice-e-feel.md",
+        "SOURCE/05-agentes/skills/corrigir-bug.md",
+        "SOURCE/05-agentes/skills/revisar-entrega.md",
+        "SOURCE/06-qualidade/definicao-de-pronto.md",
+        "SOURCE/00-conceito/pilares-e-experiencia.md",
+        "SOURCE/01-design/progressao-e-economia.md",
+        "SOURCE/01-design/niveis-e-mundo.md",
+        "SOURCE/01-design/controles-e-ux.md",
+        "SOURCE/02-direcao-arte-audio/art-bible.md",
+        "SOURCE/02-direcao-arte-audio/convencoes-de-assets.md",
+        "SOURCE/03-tecnico/performance-e-plataformas.md",
+        "SOURCE/03-tecnico/pipeline-de-build.md",
+        "SOURCE/04-dados-de-design/README.md",
+        "SOURCE/04-dados-de-design/habilidades.csv",
+        "SOURCE/04-dados-de-design/inimigos.csv",
+        "SOURCE/05-agentes/skills/projetar-mecanica.md",
+        "SOURCE/05-agentes/skills/implementar-feature.md",
+        "SOURCE/06-qualidade/playtest-e-balanceamento.md",
+        "SOURCE/06-qualidade/checklist-revisao.md",
+        "SOURCE/07-producao/escopo-mvp.md",
+        "SOURCE/09-decisoes/ADR-000-modelo.md",
+        "SOURCE/07-producao/roadmap-e-marcos.md",
+        "SOURCE/08-referencias/jogos-referencia.md",
+        "SOURCE/08-referencias/templates/template-gdd-feature.md",
+        "SOURCE/08-referencias/templates/template-asset-brief.md"
+      ],
+      "opcionais": [
+        "SOURCE/00-conceito/publico-e-mercado.md",
+        "SOURCE/01-design/narrativa-e-personagens.md",
+        "SOURCE/02-direcao-arte-audio/direcao-de-audio.md",
+        "SOURCE/02-direcao-arte-audio/ui-style-guide.md",
+        "SOURCE/03-tecnico/multiplayer-e-rede.md",
+        "SOURCE/05-agentes/papeis-e-fluxo.md",
+        "SOURCE/05-agentes/skills/criar-conteudo-narrativo.md",
+        "SOURCE/05-agentes/skills/gerar-asset-brief.md",
+        "SOURCE/08-referencias/exemplos-de-saida/exemplo-gdd-feature.md",
+        "SOURCE/09-decisoes/ADR-001-exemplo.md"
+      ]
+    }
+  },
+  "limite_linhas_contexto_master": {
+    "SIMPLES": 40,
+    "MEDIO": 80,
+    "COMPLEXO": 120
+  },
+  "ignorar_placeholders": [
+    "SOURCE/05-referencias/templates",
+    "SOURCE/08-referencias/templates",
+    "SOURCE/06-decisoes/ADR-000",
+    "SOURCE/09-decisoes/ADR-000"
+  ],
+  "pontuacao": {
+    "perguntas": [
+      {
+        "tema": "Duração e escopo",
+        "opcoes": [
+          "Jam ou protótipo, até 2 semanas",
+          "Jogo curto, 1 a 3 meses",
+          "Mais de 3 meses ou conteúdo extenso"
+        ]
+      },
+      {
+        "tema": "Sistemas e conteúdo",
+        "opcoes": [
+          "1 mecânica central e poucas fases",
+          "Vários sistemas (economia, loot, progressão)",
+          "Muitos sistemas, meta-progressão ou conteúdo procedural grande"
+        ]
+      },
+      {
+        "tema": "Online",
+        "opcoes": [
+          "Nenhum",
+          "Ranking ou leaderboard simples",
+          "Co-op, multiplayer ou servidor próprio"
+        ]
+      },
+      {
+        "tema": "Publicação e monetização",
+        "opcoes": [
+          "Grátis (ex.: itch.io)",
+          "Premium em loja (Steam, mobile)",
+          "Free-to-play, compras no app ou várias plataformas"
+        ]
+      },
+      {
+        "tema": "Equipe",
+        "opcoes": [
+          "1 pessoa + IA",
+          "2 a 3 pessoas",
+          "4 ou mais, ou papéis separados (arte, áudio, design)"
+        ]
+      }
+    ],
+    "faixas": {
+      "SIMPLES": [
+        0,
+        3
+      ],
+      "MEDIO": [
+        4,
+        7
+      ],
+      "COMPLEXO": [
+        8,
+        10
+      ]
+    },
+    "tres_respostas_2": 3,
+    "pisos": [
+      {
+        "pergunta": 3,
+        "a_partir_de": 2,
+        "minimo": "MEDIO",
+        "motivo": "multiplayer ou servidor próprio"
+      },
+      {
+        "pergunta": 4,
+        "a_partir_de": 2,
+        "minimo": "MEDIO",
+        "motivo": "free-to-play, compras no app ou várias plataformas"
+      }
+    ]
+  },
+  "prefixos": {
+    "game": "jogo",
+    "jam": "game jam ou protótipo"
+  }
+}
